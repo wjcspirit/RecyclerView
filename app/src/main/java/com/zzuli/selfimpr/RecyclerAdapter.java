@@ -69,7 +69,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.Conten
     }
 
     /**
-     * OnCreateViewHolder创建了一个ViewHolder的实例
+     * 创建Item视图，并返回相应的ViewHolder
      * @param viewGroup
      * @param i
      * @return
@@ -86,7 +86,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.Conten
     }
 
     /**
-     * onBindViewHolder方法则负责将数据与ViewHolder绑定
+     * 绑定数据到正确的Item视图上。
      * @param contentViewHolder
      * @param position
      */

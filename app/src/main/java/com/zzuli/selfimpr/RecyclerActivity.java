@@ -13,6 +13,14 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 如果你想使用RecyclerView，需要做以下操作：
+ * RecyclerView.Adapter - 处理数据集合并负责绑定视图
+ * ViewHolder - 持有所有的用于绑定数据或者需要操作的View
+ * LayoutManager - 负责摆放视图等相关操作
+ * ItemDecoration - 负责绘制Item附近的分割线
+ * ItemAnimator - 为Item的一般操作添加动画效果，如，增删条目等
+ */
 public class RecyclerActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView;
