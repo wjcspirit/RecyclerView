@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--如果android:state_pressed="false"不写，那么android:state_pressed="true"的那条
+        item必须放到其前面-->
+    <item android:state_pressed="true" android:drawable="@color/green" />
+    <item android:drawable="@color/window_1"/>
+
+</selector>
